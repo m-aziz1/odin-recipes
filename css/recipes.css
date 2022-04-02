@@ -40,7 +40,8 @@ h1 {
 
 /* Home Button */
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: #0d7ba0;
   font-size: 16px;
   font-family: "Lora", serif;
   font-style: italic;
@@ -64,6 +65,7 @@ hr {
 
 /* Secondary Titles */
 h2 {
+  color: #0d7ba0;
   font-size: 18px;
   font-family: "Lora", serif;
   font-style: italic;
@@ -81,4 +83,13 @@ ol li {
   padding: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
+}
+
+/*  Print Button */
+button {
+  padding: 5px;
+  background-color: #add8e6;
+  color: #114969;
+  margin: 10px;
+  cursor: pointer;
 }
