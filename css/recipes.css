@@ -1,66 +1,84 @@
-* {
-  box-sizing: border-box;
-}
-
+/* Background */
 html {
   background: url("../images/background.jpg") no-repeat fixed center;
   background-size: cover;
 }
 
+/* Outer Body */
 body {
   background-color: #f5f5f5;
   width: 95%;
   margin: auto;
 }
 
+/* Document Text */
 body p {
-  margin: 5px;
+  margin: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
 
+/* Content Body */
 .recipe-body {
   background-color: #f5f5f5;
   text-align: center;
   margin: auto;
   width: 85%;
-  border: 2px solid lightblue;
+  border: 2px solid #add8e6;
 }
 
+/* Recipe Title */
 h1 {
   margin-top: 25px;
   display: inline-block;
   border-radius: 25px;
   color: #2c698d;
-  font-family: lora;
+  font-family: "Lora", serif;
   font-size: 32px;
   font-style: italic;
 }
 
-.index-link {
+/* Home Button */
+a {
   text-decoration: none;
   font-size: 16px;
-  font-family: lora;
+  font-family: "Lora", serif;
   font-style: italic;
 }
 
+/* Dish Image */
 .main-img {
   margin-top: 10px;
   height: 50vh;
 }
 
+/* Horizontal Rules */
 hr {
   width: 80%;
 }
 
-h2 {
-  font-size: 18px;
-  font-family: lora;
-  font-style: italic;
-}
-
+/* Star Rating */
 .rating-img {
   width: 100px;
 }
 
-li {
+/* Secondary Titles */
+h2 {
+  font-size: 18px;
+  font-family: "Lora", serif;
+  font-style: italic;
+}
+
+/* Ingredients List Items */
+ul li {
   padding: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+/* Instructions List Text */
+ol li {
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
